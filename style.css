@@ -90,7 +90,7 @@ a:focus-visible {
   align-items: center;
   justify-content: space-between;
   gap: 20px;
-  padding: 16px max(16px, calc((100vw - var(--wrap)) / 2));
+  padding: 16px max(16px, calc((100% - var(--wrap)) / 2));
   border-bottom: 1px solid var(--line-soft);
   background: color-mix(in srgb, var(--bg) 88%, transparent);
   backdrop-filter: blur(8px);
@@ -177,7 +177,7 @@ a:focus-visible {
 }
 
 .hero-summary {
-  max-width: 60ch;
+  max-width: 75ch;
   margin: 28px 0 0;
   font-size: clamp(1.05rem, 2.2vw, 1.15rem);
   line-height: 1.65;
